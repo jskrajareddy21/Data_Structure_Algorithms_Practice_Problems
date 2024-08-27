@@ -1,0 +1,7 @@
+Brute_Force tech - time complexity is O(n^2)
+
+Sorting - time complexity is O(n.log(n))
+
+Hashing - time complexity is O(n)
+
+so speed wise hashing technique is good.
