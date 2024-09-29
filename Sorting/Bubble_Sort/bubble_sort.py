@@ -8,8 +8,9 @@ def bubble_sort(arr):
 
     return arr
 
-
-
+#unsorted_arr = []
+#unsorted_arr = [5,4,3,2,1]
+#unsorted_arr = [-1,4,-5,10,0]
 unsorted_arr = [7, 12, 9, 11, 3]
 result = bubble_sort(unsorted_arr)
 print("Bubble sorted array : ", result)
