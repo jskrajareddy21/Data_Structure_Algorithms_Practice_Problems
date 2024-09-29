@@ -50,6 +50,6 @@ We get time complexity:
 
 ---
 ```
-O(n/2 ⋅ n) = O( n^2^ )
+O(n/2 ⋅ n) = O( n^2 )
 ```
 ---
