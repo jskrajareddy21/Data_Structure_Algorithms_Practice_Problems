@@ -18,4 +18,3 @@ unsorted_list = [ 7, 12, 9, 11, 3]
 result = insertion_sort(unsorted_list)
 print("Insertion sort array : ",result)
 
-#link for visualization: https://pythontutor.com/visualize.html#mode=edit
