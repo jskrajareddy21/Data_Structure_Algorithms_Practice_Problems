@@ -5,7 +5,7 @@
     3. Merge two sub-arrays together by always putting the lowest value first.
     4. Keep merging until there are no sub-arrays left.
 
-**Example image for merge sort** :
+**Example image for merge sort** :</br>
 ![Merge Sort](../../Images/merge_sort.png)
 
 **Manual Run**:
