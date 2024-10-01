@@ -6,7 +6,7 @@
     4. Keep merging until there are no sub-arrays left.
 
 **Example image for merge sort** :
-![Merge Sort](Images/merge_sort.png)
+![Merge Sort](../Images/merge_sort.png)
 
 **Manual Run**:
 
