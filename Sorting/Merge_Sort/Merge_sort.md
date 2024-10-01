@@ -42,3 +42,43 @@
 
 `[ 8, 9, 12] [ 3, 4, 5, 11]`
 
+*Step 8*: The two last remaining sub-arrays are merged. Let's look at how the comparisons are done in more detail to create the new merged and finished sorted array:
+
+3 is lower than 8:
+
+Before `[ 8, 9, 12] [ 3, 4, 5, 11]` </br>
+After: `[ 3, 8, 9, 12] [ 4, 5, 11]`
+
+*Step 9*: 4 is lower than 8:
+
+Before `[ 3, 8, 9, 12] [ 4, 5, 11]`</br>
+After: `[ 3, 4, 8, 9, 12] [ 5, 11]`
+
+*Step 10*: 5 is lower than 8:
+
+Before `[ 3, 4, 8, 9, 12] [ 5, 11]` </br>
+After: `[ 3, 4, 5, 8, 9, 12] [ 11]`
+
+*Step 11*: 8 and 9 are lower than 11:
+
+Before `[ 3, 4, 5, 8, 9, 12] [ 11]` </br>
+After: `[ 3, 4, 5, 8, 9, 12] [ 11]`
+
+*Step 12*: 11 is lower than 12:
+
+Before `[ 3, 4, 5, 8, 9, 12] [ 11]` </br>
+After: `[ 3, 4, 5, 8, 9, 11, 12]`
+
+The sorting is finished!
+
+**Merge Sort Implementation**:
+
+    1. An array with values that needs to be sorted.
+    2. A function that takes an array, splits it in two, and calls itself with each half of that array so that the arrays are split again and again recursively, until a sub-array only consist of one value.
+    3. Another function that merges the sub-arrays back together in a sorted way.
+
+**Merge Sort Time Complexity**:
+
+---
+O(n ⋅ log(n))
+---
